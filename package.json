@@ -32,8 +32,8 @@
     ]
   },
   "engines": { 
-    "node": "YOUR_VERSION_OF_NODE",
-   "npm": "YOUR_VERSION_OF_NPM"
+    "node": "16.18.0",
+   "npm": "8.19.2"
   },
   "browserslist": {
     "production": [
