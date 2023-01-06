@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 import Cont from "../component/Contact"
 import ContL from "../component/ContactLeftSide"
 import { Typography } from '@mui/material';
+import { Element } from 'react-scroll';
 const Item = styled(Paper)(({ theme }) => ({
   background: "linear-gradient(to right top, #212121, #424242)",
   ...theme.typography.body2,
@@ -20,6 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Contact() {
   return (
+    <Element name={"Contact"} id="contact">
     <div style={{padding:"5rem", background: "conic-gradient(from 180deg, #595757, #a09f9f, #413f3f, #595757 )"}}>
       <Typography variant='h3' sx={{display:"flex", justifyContent:"center", alignItems:"center", 
     fontWeight:"800",
@@ -36,5 +38,6 @@ export default function Contact() {
         
       </Stack>
     </div>
+    </Element>
   );
 }

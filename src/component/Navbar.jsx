@@ -29,7 +29,7 @@ const Navbar = () => {
   const handleClose = () => setOpen(false);
 
     return (
-        <AppBar sx={{ position: "sticky", background: "linear-gradient(to right top, #6E07F3,  #f6f6f6)"}} id="nav">
+        <AppBar sx={{ position: "sticky", background: "linear-gradient(to right top, #212121, #424242)"}} id="nav">
             <StyledTool>
                 <Typography variant='h6' sx={{ display: { xs: "none", sm: "none", md: "block" } }} >
                     UD Portfolio
@@ -57,7 +57,7 @@ const Navbar = () => {
                             top:"70px",
                             width:"100%",
                             height:"300px",
-                            background: "linear-gradient(to right top, #6E07F3,  #f6f6f6)",
+                            background: "linear-gradient(to right top, #212121, #424242)",
                             display: open === true ?"block":"none",
                            
                         }}
@@ -80,17 +80,19 @@ const Navbar = () => {
                     <Link activeClass="active" smooth={true}  offset={-70} duration={500} to={"About"}>
                         <Button sx={{ my: 2, color: 'white' }}>About</Button>
                     </Link>
-                    <Link activeClass="active" smooth={true}  offset={-70} duration={500} to={"Skill"}>
-                        <Button sx={{ my: 2, color: 'white' }}>Skill</Button>
+                    <Link activeClass="active" smooth={true}  offset={-70} duration={500} to={"Service"}>
+                        <Button sx={{ my: 2, color: 'white' }}>Services</Button>
                     </Link>
                     <Link activeClass="active" smooth={true}  offset={-70} duration={500} to={"Portfolio"}>
                         <Button sx={{ my: 2, color: 'white' }}>Portfolio</Button>
                     </Link>
                 </Search>
                 <Icons>
-                    <Button variant='outlined' sx={{ my: 2, color: "white", border: "1px solid white" }}>
+                <Link activeClass="active" smooth={true}  offset={-70} duration={500} to={"Contact"}>
+                    <Button  sx={{ my: 2, color: "white", border: "1px solid white" }}>
                         Contact
                     </Button>
+                    </Link>
                 </Icons>
             </StyledTool>
 

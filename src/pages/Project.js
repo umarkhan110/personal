@@ -8,6 +8,7 @@ import Ract from "../component/images/react-2.svg"
 import Js from "../component/images/javascript-2.svg"
 import Redx from "../component/images/redux.svg"
 import Html1 from "../component/images/loginoption.PNG"
+import { Element } from 'react-scroll';
 const data = [
     { "id": "1", "name": "GetFix1", "desc": "I njsdd jh jsdd bhbs dbmbj bjhjsbdbjhew k bjbjkj hkb kjjde j", "link": "https://www.google.com", "image": Html1 },
     { "id": "2", "name": "GetFix2", "desc": "I njsdd jh jsdd bhbs dbmbj bjhjsbdbjhew k bjbjkj hkb kjjde j", "link": "https://www.google.com", "image": Ract },
@@ -38,6 +39,7 @@ const Project = () => {
 
     return (
         <>
+        <Element name={"Portfolio"} id="portfolio">
             <Main
                 sx={{
                     padding: "5rem",
@@ -101,6 +103,7 @@ const Project = () => {
                     sx={{display:"flex", justifyContent:"center", mt:3, color:"white"}}
                 />
             </Main>
+            </Element>
         </>
     )
 }

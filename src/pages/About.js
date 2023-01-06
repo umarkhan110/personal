@@ -40,7 +40,7 @@ const About = () => {
                         <Typography variant='subtitle'>ABOUT ME</Typography>
                         <Typography variant="h4" sx={{pt:3, pb:3}}>PERSONAL DETAILS</Typography>
                         <Typography paragraph sx={{pb:2}}>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</Typography>
-                        <Button  sx={{color:"white",  background: "linear-gradient(to right top, #6E07F3,  #f6f6f6)",}}>Veiw Full Detail</Button>
+                        <Button  sx={{color:"white",  background: "linear-gradient(to right top, #212121, #424242)",}}>Veiw Full Detail</Button>
                     </Item2>
                 </Grid>
                 

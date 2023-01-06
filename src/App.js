@@ -7,21 +7,21 @@ import Service from "./pages/Service";
 import Project from "./pages/Project";
 import Bg from "./pages/Bg";
 import Contact from "./pages/Contact";
+import About from "./pages/About.jsx";
 function App() {
   return (
     <>
-    <Element name={"Home"} id="home">
-       <Navbar />
-       <Home />
-       </Element>
-       <Aboutus />
-       <Service />
-       <Bg />
+      <Element name={"Home"} id="home">
+        <Navbar />
+        <Home />
+      </Element>
+      {/* <Aboutus /> */}
+      <About />
+      <Service />
+      <Bg />
       <Project />
       <Contact />
     </>
-
-  
   );
 }
 

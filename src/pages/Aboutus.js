@@ -9,7 +9,7 @@ const Desc = styled(Box)(({ theme }) => ({
   justifyContent: 'center',
   textAlign: "center",
   // backgroundColor: "#6E07F3",
-  background: "linear-gradient(to right top, #6E07F3,  #f6f6f6)",
+  background: "linear-gradient(to right top, #212121, #424242)",
   borderBottomRightRadius:"500px",
   color: "white",
   padding: "5rem 1.5rem",
